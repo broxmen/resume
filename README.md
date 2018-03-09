@@ -6,6 +6,8 @@ head of the document and provides resume section and subsection environments
 `rSubsection` heading format, and the skip sizes defined in `resume.cls` can be
 customized.
 
+![Imgur](https://i.imgur.com/Lob4o6E.png)
+
 ### License
 
 Please see LICENSE file.
