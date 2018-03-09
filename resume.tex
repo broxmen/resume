@@ -1,60 +1,100 @@
 \documentclass{resume}
+\usepackage[left=0.75in,top=0.7in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{tabu}
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 
-\name{John Q. Public}
-\address{ 4489 Oxford Lane \\ San Antonio, PA 90024  }
-\address{ 555~$\cdot$~356~$\cdot$~7936 \\ jpublic@example.edu }
+\name{Carlo Dooley}
+
+\address{ +1 - 096.519.9678 \\  example@gmail.com }
+\address{ 454 Joseph Gardens \\ Damianview, OR 38313}
+
 
 \def\nameskip{\bigskip}
 \def\sectionskip{\medskip}
-
+\setlength{\tabcolsep}{0pt}
 \begin{document}
 
-  \begin{rSection}{Education}
-    {\bf University of California, Berkeley} \hfill {\em June 2004} \\ 
-    { B.S. in Computer Science \& Engineering } \\
-    { Minor in Linguistics } \smallskip \\
-    { Member of Eta Kappa Nu } \\
-    { Member of Upsilon Pi Epsilon } \\
-    Overall GPA: 5.678
-  \end{rSection}
-  
-  \begin{rSection}{Experience}
-  
-    \begin{rSubsection}{ACME, Inc}{October 2010 - Present}{Web Developer}{Palo Alto, CA}
-    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-    \item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-    \item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
-    \item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    \item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
-    \item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
-    \end{rSubsection}
-  
-    \begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
-    \item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
-    \item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
-    \item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
-    \item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
-    \item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
-    \end{rSubsection}
-
-    \begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
-    \item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-    \item Maecenas convallis ullamcorper ultricies stylesheets.
-    \item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-    \item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
-    \end{rSubsection}
-  
-  \end{rSection}
-  
-  \begin{rSection}{Technical Strengths}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-      Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
-      Protocols \& APIs & XML, JSON, SOAP, REST \\
-      Databases & MySQL, PostgreSQL, Microsoft SQL \\
-      Tools & SVN, Vim, Emacs
-    \end{tabular}
-  \end{rSection}
+    \begin{rSection}{Education}
+    
+        \begin{tabu} to 1\linewidth { m{3em} m{24em} X[l] X[r] }
+        
+            {\bf BE} & Cambridgeshire Institute of Technology, Bedfordshire & {\bf 7.68 CGPA} & {\em Present}\\ 
+            
+            {\bf HSC} & Brandoborough College, Fort & {\bf 68.83 \%} & {\em 2013}\\
+            
+            {\bf SSC} & Kshlerinberg High School, Kshlerinberg & {\bf 89.64 \%} & {\em 2011}\\
+        
+        \end{tabu}
+        
+    \end{rSection}
+      
+    \begin{rSection}{Projects}
+      
+        \begin{tabu} to 1\linewidth { m{27em} X[l] X[r] }
+            {\bf Awesome Granite Chicken} & Grad Project & {\em 2016-17} \\
+        \end{tabu}
+        -  Sed sequi inventore sapiente. Quia atque aut tenetur doloremque officiis ut. Amet asperiores distinctio et eligendi. Delectus et sed non non suscipit consequatur dignissimos. Harum est nesciunt nostrum velit sed rem vel accusantium.
+        
+        \begin{tabu} to 1\linewidth { m{27em} X[l] X[r] }
+            {\bf Practical Wooden Cheese} & Web Project & {\em Oct 2015} \\
+        \end{tabu}
+        - Laboriosam eveniet libero aspernatur provident recusandae sint. Sed sit rerum dolores in quas dolor nihil est. Eius alias aut.
+        
+        \begin{tabu} to 1\linewidth { m{27em} X[l] X[r] }    
+            {\bf Incredible Frozen Chair} & OS Project & {\em Oct 2015} \\
+        \end{tabu}
+        - Vel quibusdam accusantium aut est neque. Sapiente quasi ut est sunt dolore mollitia
+    
+    \end{rSection}
+    
+    \begin{rSection}{Technical Knowledge}
+        
+        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4.5em}} l }
+            Programming Languages & Java, C, Bash\\
+            Web Development & HTML, CSS, VueJS, NodeJS, PHP\\
+            Databases \& Tools & SQL, MongoDB, Qt, Git, Arduino, Latex\\
+            Design Tools & Photoshop, Illustrator, Gimp \\
+            OS Platforms & Linux, Windows, Mac OS
+        \end{tabular}
+        
+    \end{rSection}
+    
+    \begin{rSection}{Position of Responsibility}
+    
+    {\bf National Infrastructure Designer} - Hessel, Bosco and Schamberger \\ 
+    {\bf Internal Mobility Developer} - Murray Inc
+    
+    \end{rSection}
+    
+    \begin{rSection}{Achievements}
+    
+        Won the Developer of the Year at Random University for adding bugs \hfill{\em Apr 2017} \\
+        Copying the firewall won't do anything, we need to reboot the optical USB transmitter! \hfill{\em Mar 2017} \\
+        Try to compress the AGP port, maybe it will copy the primary firewall! \hfill {\em Sept 2016} \\
+        We need to calculate the cross-platform SDD bus! \hfill {\em Aug 2015} \\
+        Try to reboot the AI capacitor, maybe it will calculate the virtual feed! \hfill {\em Sept 2014}
+     
+    \end{rSection}
+    
+    \begin{rSection}{Extra Curricular Activities}
+    
+        Conducting workshops on Web Development, Git, Arduino, Linux \hfill {\em 2015-17} \\
+        We need to synthesize the virtual RAM matrix! \hfill {\em 2016-17} \\
+        Participated in Cobwebs - Website designing competition for Build your Brand \hfill {\em Sept 2014}\\
+        The SMS monitor is down, calculate the redundant circuit so we can quantify the XSS port! \hfill {\em 2006-07}
+     
+    \end{rSection}
+    
+    \begin{rSection}{Interests and Hobbies}
+    
+        Linux, Open Source, Web Development, UI \& UX, Latest Technology, Gaming,  Music
+    
+    \end{rSection}
+    
+    \begin{rSection}{Languages Known}
+    
+        English, JavaScript(Mother Tongue)
+        
+    \end{rSection}
 
 \end{document}
